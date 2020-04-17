@@ -12,19 +12,22 @@ import (
 	"testing"
 )
 
-func TestFetchMailboxInfo(t *testing.T){
-	ms:=NewMailService("xxxxxxx:993","xxxxxxx@qq.com", "ndlwjilaoiaxbjhe")
-	if err:=ms.Login();err!=nil{
+func TestFetchMailboxInfo(t *testing.T) {
+	ms := NewMailService("xxxxxxx:993", "xxxxxxx@qq.com", "ndlwjilaoiaxbjhe")
+	if err := ms.Login(); err != nil {
 		panic(err)
 	}
 	defer ms.Logout()
-	mialboxs,err:=ms.FetchMailboxInfo()
-	if err!=nil{
+	mialboxs, err := ms.FetchMailboxInfo()
+	if err != nil {
 		panic(err)
 	}
 	fmt.Println(mialboxs)
-	mc,err:=ms.FetchMailContent(2,"INBOX")
-	if mc!=nil{
+	mc, err := ms.FetchMailContent(2, "INBOX")
+	if err != nil {
+		t.Error(err)
+	}
+	if mc != nil {
 
 	}
 }
