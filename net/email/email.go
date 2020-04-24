@@ -7,6 +7,13 @@
 
 package email
 
+/**
+@description imap servers
+@163  imap.163.com:993   http://help.mail.163.com/faqDetail.do?code=d7a5dc8471cd0c0e8b4b8f4f8e49998b374173cfe9171305fa1ce630d7f67ac2cda80145a1742516
+@126  imap.126.com:993   http://help.mail.163.com/faqDetail.do?code=d7a5dc8471cd0c0e8b4b8f4f8e49998b374173cfe9171305fa1ce630d7f67ac2cda80145a1742516
+@qq   imap.qq.com:993    https://service.mail.qq.com/cgi-bin/help?subtype=1&id=28&no=1001256
+@sina imap.sina.com:993  Password
+*/
 import (
 	"errors"
 	"fmt"

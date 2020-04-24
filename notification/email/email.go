@@ -11,6 +11,13 @@ import (
 )
 
 /**
+@description: smtp servers
+@163  smtp.163.com:465    http://help.mail.163.com/faqDetail.do?code=d7a5dc8471cd0c0e8b4b8f4f8e49998b374173cfe9171305fa1ce630d7f67ac2cda80145a1742516
+@126  smtp.126.com:465    http://help.mail.163.com/faqDetail.do?code=d7a5dc8471cd0c0e8b4b8f4f8e49998b374173cfe9171305fa1ce630d7f67ac2cda80145a1742516
+@qq   smtp.qq.com:465     https://service.mail.qq.com/cgi-bin/help?subtype=1&id=28&no=1001256
+@sina smtp.sina.com:465   Password
+*/
+/**
 @description: MailService Struct
 @attribute Host: EMail Server
 @attribute Port: Port
