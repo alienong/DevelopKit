@@ -12,6 +12,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/Tang-RoseChild/mahonia"
+	"strings"
 )
 
 /**
@@ -86,5 +87,5 @@ func GoChineseToPinyin(chinese string, full bool) (string, error) {
 			index = index + 2
 		}
 	}
-	return retStr, nil
+	return strings.ToUpper(retStr), nil
 }

@@ -50,7 +50,7 @@ type ICRUDEvent interface {
 }
 
 /**
-@description: Struct Set ICRUDEvent Interface,Can Implement One or All Methods
+@description: Struct Set ICRUDEvent Interface,Can Implement One or All Method	s
 */
 type CRUDEvent struct {
 	ICRUDEvent

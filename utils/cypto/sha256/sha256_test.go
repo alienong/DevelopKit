@@ -5,7 +5,7 @@
  * @Date: 2020/4/17 15:13
  */
 
-package cypto
+package sha256
 
 import (
 	"fmt"

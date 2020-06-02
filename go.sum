@@ -5,6 +5,8 @@ github.com/CloudyKit/fastprinter v0.0.0-20200109182630-33d98a066a53 h1:sR+/8Yb4s
 github.com/CloudyKit/fastprinter v0.0.0-20200109182630-33d98a066a53/go.mod h1:+3IMCy2vIlbG1XG/0ggNQv0SvxCAIpPM5b1nCz56Xno=
 github.com/CloudyKit/jet v2.1.2+incompatible h1:ybZoYzMBdoijK6I+Ke3vg9GZsmlKo/ZhKdNMWz0P26c=
 github.com/CloudyKit/jet v2.1.2+incompatible/go.mod h1:HPYO+50pSWkPoj9Q/eq0aRGByCL6ScRlUmiEX5Zgm+w=
+github.com/DeanThompson/ginpprof v0.0.0-20190408063150-3be636683586 h1:vDSj8WQZoe+dhK9JVwkSEBwtmcJw5rJ7l1L0Yik8Ku0=
+github.com/DeanThompson/ginpprof v0.0.0-20190408063150-3be636683586/go.mod h1:kMi/fSDAgvjo9TYfYwYeQ2vkyj+VTR/tB6u/Tjh39t0=
 github.com/Tang-RoseChild/mahonia v0.0.0-20131226213531-0eef680515cc h1:7QGNag2vwx98HBiQ8A9M2PWO0ws/xNU6eZVlAbvIWZw=
 github.com/Tang-RoseChild/mahonia v0.0.0-20131226213531-0eef680515cc/go.mod h1:Dl60+a8Tcs+dl3UbHuY54vuwwXo6JJ22RwnDGZ+0U+o=
 github.com/agrison/go-tablib v0.0.0-20160310143025-4930582c22ee h1:0RklYSvekYaIFI9JUx7TFPQvo++TdILmZiV17QI4nXk=

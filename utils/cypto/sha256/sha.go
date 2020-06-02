@@ -1,11 +1,11 @@
 /**
  * @Author: alienongwlx@gmail.com
- * @Description:
+ * @Description: sha crypto
  * @Version: 1.0.0
  * @Date: 2020/4/17 14:32
  */
 
-package cypto
+package sha256
 
 import (
 	"crypto/sha256"

@@ -39,10 +39,7 @@ func (s *RedisSessionService) Set(key, value interface{}, c *gin.Context) error 
 	session := sessions.Default(c)
 	session.Set(key, value)
 	err := session.Save()
-	if err != nil {
-		return err
-	}
-	return nil
+	return err
 }
 
 func (s *RedisSessionService) Get(key interface{}, c *gin.Context) (interface{}, error) {

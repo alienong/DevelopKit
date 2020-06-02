@@ -6,6 +6,7 @@ require (
 	github.com/Chronokeeper/anyxml v0.0.0-20160530174208-54457d8e98c6 // indirect
 	github.com/CloudyKit/fastprinter v0.0.0-20200109182630-33d98a066a53 // indirect
 	github.com/CloudyKit/jet v2.1.2+incompatible // indirect
+	github.com/DeanThompson/ginpprof v0.0.0-20190408063150-3be636683586
 	github.com/Tang-RoseChild/mahonia v0.0.0-20131226213531-0eef680515cc
 	github.com/agrison/go-tablib v0.0.0-20160310143025-4930582c22ee // indirect
 	github.com/agrison/mxj v0.0.0-20160310142625-1269f8afb3b4 // indirect
@@ -15,6 +16,7 @@ require (
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/gin-contrib/sessions v0.0.3
+	github.com/gin-gonic/gin v1.5.0
 	github.com/lestrrat-go/file-rotatelogs v2.3.0+incompatible
 	github.com/lestrrat-go/strftime v1.0.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
