@@ -212,7 +212,7 @@ func (s *CRUDService) Delete(id interface{}, bean interface{}) error {
 
 /**
 @description: Delete Some Record
-@param id: Record Ids
+@param id: Record Ids test
 @param bean: Record Updated
 @return: error
 */
